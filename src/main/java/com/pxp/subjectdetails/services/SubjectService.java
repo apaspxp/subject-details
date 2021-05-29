@@ -16,7 +16,7 @@ public class SubjectService {
                 new Subjects(2, Arrays.asList("English", "Geography", "History", "Economics", "Zoology"))
         );
 
-        System.out.println("Called from intellij instance.");
+        System.out.println("Git actions.");
         return subjectsList.stream().filter(s -> s.getRollNo() == rollno).findFirst().get();
     }
 }
